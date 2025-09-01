@@ -1,0 +1,58 @@
+2️⃣ CSS (style.css)
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #e1f5fe);
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 40px;
+  letter-spacing: 3px;
+  animation: colorChange 4s infinite alternate;
+}
+
+@keyframes colorChange {
+  0% { color: #2c3e50; }
+  50% { color: #e91e63; }
+  100% { color: #3f51b5; }
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  width: 60%;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 14px;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-size: 18px;
+}
+
+th {
+  width: 35%;
+  background: #2c3e50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.photo {
+  display: block;
+  margin: 10px auto;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 3px solid #2c3e50;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}

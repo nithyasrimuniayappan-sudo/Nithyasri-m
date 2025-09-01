@@ -1,0 +1,17 @@
+
+3️⃣ JavaScript (script.js)
+
+// Moving title letters effect
+let title = document.getElementById("title");
+let text = title.innerText;
+title.innerText = "";
+
+let i = 0;
+function typeEffect() {
+  if (i < text.length) {
+    title.innerText += text.charAt(i);
+    i++;
+    setTimeout(typeEffect, 200);
+  }
+}
+typeEffect();

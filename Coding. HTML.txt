@@ -1,0 +1,43 @@
+1️⃣ HTML (biodata.html)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nithyasri Bio Data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="title">Bio Data</h1>
+  <img src="your-photo.jpg" alt="Profile Photo" class="photo">
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <td>Nithyasri</td>
+    </tr>
+    <tr>
+      <th>Age</th>
+      <td>18</td>
+    </tr>
+    <tr>
+      <th>Course</th>
+      <td>2nd Year B.Sc IT</td>
+    </tr>
+    <tr>
+      <th>Date of Birth</th>
+      <td>21.08.2007</td>
+    </tr>
+    <tr>
+      <th>Father's Name</th>
+      <td>Muniayappan</td>
+    </tr>
+    <tr>
+      <th>Mother's Name</th>
+      <td>Thangamani</td>
+    </tr>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
